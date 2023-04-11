@@ -33,16 +33,7 @@
     border-radius: 46px;
     display: block;
     background: white;
-    
   }
-
-  .f .placeholder{
-    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
-background-blend-mode: overlay;
-filter: blur(66.5px);
-border-radius: 46px;
-}
-
 
 button{
 position: absolute;
@@ -56,15 +47,19 @@ font-weight: 700;
 font-size: 24px;
 line-height: 28px;
 color: #000000;
+}
+
+button{
+    position: absolute;
+width: 521px;
+height: 80px;
+left: 100px;
+top: 634px;
 background: #FFCD2D;
 backdrop-filter: blur(200px);
 border-radius: 38px;
-bottom: 458px;
-display: flex;
-justify-content: center;
-width: 521px;
-height: fit-content;
-top: 634px;
-left: 100px;
 }
 
+input{
+    text-decoration: white;
+}
